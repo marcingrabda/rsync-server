@@ -11,4 +11,5 @@ run:
 	rsync-server
 
 push:
+	docker image tag rsync-server marcingrabda/rsync-server:latest
 	docker push marcingrabda/rsync-server:latest
